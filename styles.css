@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('norse-bold-webfont.woff2') format('woff2'),
+         url('norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.odin-text {
+    font-family: "norsebold", serif;
+    font-size: 4rem;
+}
+html {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input {
+    margin-top: 5px;
+    font-size: 1.3rem;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+}
+input:invalid {
+    border-color: red;
+  }
+  
+  input:valid {
+    border-color: green;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+h2, h3 {
+    font-weight: normal;
+}
+h3 {
+    margin-top: 50px;
+    padding-top: 10px;
+}
+.bottom > h3 {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+button {
+    margin-left: 3vw;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #596D48;
+    border-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+label {
+    font-size: 0.8rem;
+}
+.white {
+    padding-left: 3vw;
+    background-color: white;
+}
+.opaque {
+    position: absolute;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+    top: 8rem;
+}
+.image {
+    width: 30vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.right {
+    background-color: rgba(254, 250, 250, 0.916);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.top, .bottom{
+    padding-left: 3vw;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+}
+#odin {
+    width: 20%;
+    height: 20%;
+}
+.contain {
+    display: flex;
+}
+.odin-text {
+    color: white;
+}
+.vertical {
+    display: flex;
+    flex-flow: column;
+    margin-right: 20px;
+}
+.horizontal {
+    display: flex;
+    flex-flow: row;
+    margin-top: 20px;
+    gap: 1rem;
+}
